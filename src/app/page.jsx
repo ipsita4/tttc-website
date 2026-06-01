@@ -37,15 +37,13 @@ export default function HomePage() {
             <svg viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2"><path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 01-8 0"/></svg>
             Request Consultation
           </a>
-          <a href="#" className="btn-outline">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14,2 14,8 20,8"/><line x1="12" y1="18" x2="12" y2="12"/><line x1="9" y1="15" x2="15" y2="15"/></svg>
-            Download Brochure
-          </a>
         </div>
       </div>
 
       
       <div className="hero-right">
+        <div className="hero-deco-ring"></div>
+        <div className="hero-deco-dot"></div>
         <div className="video-card">
           <video src="/img/video.mp4" controls playsinline preload="metadata"></video>
         </div>
@@ -58,58 +56,17 @@ export default function HomePage() {
 <div className="stats-band">
   <div className="container">
     <div className="stats-grid">
-      <div className="stat-item fade-up"><div className="stat-num">500<sup>+</sup></div><div className="stat-lbl">Projects Completed</div></div>
+      <div className="stat-item fade-up"><div className="stat-num">30<sup>+</sup></div><div className="stat-lbl">Senior Consultants Team</div></div>
       <div className="stat-item fade-up"><div className="stat-num">15<sup>+</sup></div><div className="stat-lbl">Years of Experience</div></div>
-      <div className="stat-item fade-up"><div className="stat-num">98<sup>%</sup></div><div className="stat-lbl">Client Satisfaction</div></div>
-      <div className="stat-item fade-up"><div className="stat-num">11</div><div className="stat-lbl">Core Service Areas</div></div>
+      <div className="stat-item fade-up"><div className="stat-num">9<sup>+</sup></div><div className="stat-lbl">Associate Organizations</div></div>
+      <div className="stat-item fade-up"><div className="stat-num">99<sup>%</sup></div><div className="stat-lbl">Client Satisfaction</div></div>
+      <div className="stat-item fade-up"><div className="stat-num">12</div><div className="stat-lbl">Core Service Areas</div></div>
     </div>
   </div>
 </div>
 
 
 
-<section className="promo-sec" id="showcase">
-  <div className="container">
-    <div className="sec-hd fade-up">
-      <div className="sec-title-row">
-        <div className="orn"></div>
-        <h2 className="sec-title">Building Blocks of Our Strength</h2>
-        <div className="orn r"></div>
-      </div>
-      <p className="sec-sub">Missions &amp; Visions — what drives us every day</p>
-    </div>
-    <div className="promo-grid">
-      <div className="promo-card promo-featured fade-up">
-        <img src="/img/aboutus3.png" alt="Build Your Dream Hospital"/>
-        <div className="promo-lbl">Build Your Dream Hospital</div>
-      </div>
-      <div className="promo-card fade-up">
-        <img src="/img/aboutus2.png" alt="NABH Accreditation"/>
-        <div className="promo-lbl">NABH Accreditation</div>
-      </div>
-      <div className="promo-card fade-up">
-        <img src="/img/aboutus6.png" alt="Hospital Operational Management"/>
-        <div className="promo-lbl">Operational Management</div>
-      </div>
-      <div className="promo-card fade-up">
-        <img src="/img/aboutus1.png" alt="NABL Accreditation"/>
-        <div className="promo-lbl">NABL Accreditation</div>
-      </div>
-      <div className="promo-card fade-up">
-        <img src="/img/aboutus4.png" alt="HMIS and LIMS"/>
-        <div className="promo-lbl">HMIS &amp; LIMS</div>
-      </div>
-      <div className="promo-card fade-up">
-        <img src="/img/aboutus5.png" alt="Pathology Laboratory"/>
-        <div className="promo-lbl">Pathology Laboratory</div>
-      </div>
-      <div className="promo-card fade-up">
-        <img src="/img/aboutus7.png" alt="Data Analysis"/>
-        <div className="promo-lbl">Data Analysis</div>
-      </div>
-    </div>
-  </div>
-</section>
 
 
 <section className="about" id="about">
@@ -167,86 +124,152 @@ export default function HomePage() {
     </div>
     <div className="services-grid">
 
-      <div className="svc-card svc-card-featured fade-up">
+      <a href="/project-management" className="svc-card fade-up">
         <div className="svc-num">01</div>
-        <div className="svc-icon"><svg viewBox="0 0 24 24"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9,22 9,12 15,12 15,22"/></svg></div>
         <div className="svc-name">Hospital Project Management</div>
         <div className="svc-desc">End-to-end Hospital and Health Care Project Management — from planning, drawing &amp; designing to licensing, accreditation and final handover.</div>
-        <a href="/project-management" className="svc-link">Read more <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12,5 19,12 12,19"/></svg></a>
-      </div>
+        <span className="svc-link">Read more <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12,5 19,12 12,19"/></svg></span>
+      </a>
 
-      <div className="svc-card fade-up">
+      <a href="/medical-college" className="svc-card fade-up">
         <div className="svc-num">02</div>
-        <div className="svc-icon"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg></div>
         <div className="svc-name">Medical College Projects</div>
         <div className="svc-desc">Planning, designing and implementing premier Medical College Hospitals aligned with National Medical Commission, National Building Act &amp; Environmental Clearance requirements.</div>
-        <a href="/medical-college" className="svc-link">Read more <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12,5 19,12 12,19"/></svg></a>
-      </div>
+        <span className="svc-link">Read more <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12,5 19,12 12,19"/></svg></span>
+      </a>
 
-      <div className="svc-card fade-up">
+      <a href="/pathology-laboratory" className="svc-card fade-up">
         <div className="svc-num">03</div>
-        <div className="svc-icon"><svg viewBox="0 0 24 24"><path d="M8 3H5a2 2 0 00-2 2v3m18 0V5a2 2 0 00-2-2h-3m0 18h3a2 2 0 002-2v-3M3 16v3a2 2 0 002 2h3"/></svg></div>
         <div className="svc-name">Pathology Laboratory</div>
         <div className="svc-desc">Complete Pathology Lab setup — planning, interior design, ISO 15189 &amp; NABL compliance, equipment integration, bar code processes, and staff training.</div>
-        <a href="/pathology-laboratory" className="svc-link">Read more <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12,5 19,12 12,19"/></svg></a>
-      </div>
+        <span className="svc-link">Read more <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12,5 19,12 12,19"/></svg></span>
+      </a>
 
-      <div className="svc-card fade-up">
+      <a href="/nabh-accreditation" className="svc-card fade-up">
         <div className="svc-num">04</div>
-        <div className="svc-icon"><svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
         <div className="svc-name">NABH Accreditation</div>
         <div className="svc-desc">We guide your organization through every step of NABH Accreditation — documentation, SOPs, internal audits, staff training, and strategic quality planning.</div>
-        <a href="/nabh-accreditation" className="svc-link">Read more <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12,5 19,12 12,19"/></svg></a>
-      </div>
+        <span className="svc-link">Read more <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12,5 19,12 12,19"/></svg></span>
+      </a>
 
-      <div className="svc-card fade-up">
+      <a href="/nabl-accreditation" className="svc-card fade-up">
         <div className="svc-num">05</div>
-        <div className="svc-icon"><svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89L17 22l-5-3-5 3 1.523-9.11"/></svg></div>
         <div className="svc-name">NABL Accreditation</div>
         <div className="svc-desc">Trained and certified manpower to implement NABL systems, manage day-to-day operations, and complete the full accreditation process for your laboratory.</div>
-        <a href="/nabl-accreditation" className="svc-link">Read more <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12,5 19,12 12,19"/></svg></a>
-      </div>
+        <span className="svc-link">Read more <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12,5 19,12 12,19"/></svg></span>
+      </a>
 
-      <div className="svc-card fade-up">
+      <a href="/operation-management" className="svc-card fade-up">
         <div className="svc-num">06</div>
-        <div className="svc-icon"><svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/></svg></div>
         <div className="svc-name">Operation Management</div>
         <div className="svc-desc">Highly experienced management staff to streamline your hospital's day-to-day operations, GAP analysis, supply chain, financial processes, and NABH compliance.</div>
-        <a href="/operation-management" className="svc-link">Read more <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12,5 19,12 12,19"/></svg></a>
-      </div>
+        <span className="svc-link">Read more <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12,5 19,12 12,19"/></svg></span>
+      </a>
 
-      <div className="svc-card fade-up">
+      <a href="/website-development" className="svc-card fade-up">
         <div className="svc-num">07</div>
-        <div className="svc-icon"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z"/></svg></div>
         <div className="svc-name">Website Development</div>
         <div className="svc-desc">Responsive, user-friendly healthcare websites — creative design, clean code, SEO optimization, and an end-to-end user experience that builds trust and drives enquiries.</div>
-        <a href="/website-development" className="svc-link">Read more <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12,5 19,12 12,19"/></svg></a>
-      </div>
+        <span className="svc-link">Read more <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12,5 19,12 12,19"/></svg></span>
+      </a>
 
-      <div className="svc-card fade-up">
+      <a href="/digital-marketing" className="svc-card fade-up">
         <div className="svc-num">08</div>
-        <div className="svc-icon"><svg viewBox="0 0 24 24"><path d="M18 20V10M12 20V4M6 20v-6"/></svg></div>
         <div className="svc-name">Digital Branding &amp; Marketing</div>
         <div className="svc-desc">Strategic digital campaigns, social media management, SEO, and content marketing to establish your healthcare brand's identity and grow your online presence.</div>
-        <a href="/digital-marketing" className="svc-link">Read more <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12,5 19,12 12,19"/></svg></a>
-      </div>
+        <span className="svc-link">Read more <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12,5 19,12 12,19"/></svg></span>
+      </a>
 
-      <div className="svc-card fade-up">
+      <a href="/healthcare-stationery" className="svc-card fade-up">
         <div className="svc-num">09</div>
-        <div className="svc-icon"><svg viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14,2 14,8 20,8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10,9 9,9 8,9"/></svg></div>
         <div className="svc-name">Healthcare Stationery Design</div>
         <div className="svc-desc">Professional design for all healthcare stationery — prescription pads, letterheads, patient forms, appointment cards, OPD registers, and branded medical documents.</div>
-        <a href="/healthcare-stationery" className="svc-link">Read more <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12,5 19,12 12,19"/></svg></a>
-      </div>
+        <span className="svc-link">Read more <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12,5 19,12 12,19"/></svg></span>
+      </a>
 
-      <div className="svc-card fade-up">
+      <a href="/plant-setup" className="svc-card fade-up">
         <div className="svc-num">10</div>
-        <div className="svc-icon"><svg viewBox="0 0 24 24"><path d="M12 22V12M12 12C12 6.477 16.477 2 22 2"/><path d="M12 12C12 6.477 7.523 2 2 2"/><path d="M2 22h20"/></svg></div>
         <div className="svc-name">Oxygen Generation Plant</div>
         <div className="svc-desc">Design and installation of Oxygen Generator plants for hospitals — comprehensive planning, technology selection, compliance, commissioning, and operator training.</div>
-        <a href="/plant-setup" className="svc-link">Read more <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12,5 19,12 12,19"/></svg></a>
-      </div>
+        <span className="svc-link">Read more <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12,5 19,12 12,19"/></svg></span>
+      </a>
 
+      <a href="/plant-setup" className="svc-card fade-up">
+        <div className="svc-num">11</div>
+        <div className="svc-name">RO Plant</div>
+        <div className="svc-desc">Supply, installation and commissioning of Reverse Osmosis water treatment plants for hospitals — ensuring clean, safe water supply meeting healthcare standards.</div>
+        <span className="svc-link">Read more <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12,5 19,12 12,19"/></svg></span>
+      </a>
+
+      <a href="/plant-setup" className="svc-card fade-up">
+        <div className="svc-num">12</div>
+        <div className="svc-name">ETP &amp; STP Plant</div>
+        <div className="svc-desc">Effluent Treatment Plant and Sewage Treatment Plant setup for healthcare facilities — design, installation, and compliance with environmental regulations.</div>
+        <span className="svc-link">Read more <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12,5 19,12 12,19"/></svg></span>
+      </a>
+
+      <a href="/electrical-plant" className="svc-card fade-up">
+        <div className="svc-num">13</div>
+        <div className="svc-name">Electrical Plant</div>
+        <div className="svc-desc">Turnkey electrical solutions — design, substation setup, cabling, fire alarm systems, solar power initiatives, and full commissioning for healthcare facilities.</div>
+        <span className="svc-link">Read more <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12,5 19,12 12,19"/></svg></span>
+      </a>
+
+    </div>
+  </div>
+</section>
+
+
+<section className="promo-sec" id="showcase">
+  <div className="container">
+    <div className="sec-hd fade-up">
+      <div className="sec-title-row">
+        <div className="orn"></div>
+        <h2 className="sec-title">Building Blocks of Our Strength</h2>
+        <div className="orn r"></div>
+      </div>
+    </div>
+    <div className="promo-grid">
+      <div className="promo-card fade-up">
+        <img src="/img/promo9.png" alt="Build Your Dream Hospital"/>
+        <div className="promo-lbl">Build Your Dream Hospital</div>
+      </div>
+      <div className="promo-card fade-up">
+        <img src="/img/promo1.png" alt="NABH Accreditation"/>
+        <div className="promo-lbl">NABH Accreditation</div>
+      </div>
+      <div className="promo-card fade-up">
+        <img src="/img/promo6.png" alt="Hospital Operational Management"/>
+        <div className="promo-lbl">Operational Management</div>
+      </div>
+      <div className="promo-card fade-up">
+        <img src="/img/promo2.png" alt="NABL Accreditation"/>
+        <div className="promo-lbl">NABL Accreditation</div>
+      </div>
+      <div className="promo-card fade-up">
+        <img src="/img/promo8.png" alt="HMIS and LIMS"/>
+        <div className="promo-lbl">HMIS &amp; LIMS</div>
+      </div>
+      <div className="promo-card fade-up">
+        <img src="/img/promo7.png" alt="Pathology Laboratory"/>
+        <div className="promo-lbl">Pathology Laboratory</div>
+      </div>
+      <div className="promo-card fade-up">
+        <img src="/img/promo5.png" alt="Data Analysis"/>
+        <div className="promo-lbl">Data Analysis</div>
+      </div>
+      <div className="promo-card fade-up">
+        <img src="/img/promo4.png" alt="Hospital and Healthcare Projects"/>
+        <div className="promo-lbl">Healthcare Projects</div>
+      </div>
+      <div className="promo-card fade-up">
+        <img src="/img/promo3.png" alt="Smart IT Solutions"/>
+        <div className="promo-lbl">Smart IT Solutions</div>
+      </div>
+      <div className="promo-card fade-up">
+        <img src="/img/promo10.png" alt="Brand Growth"/>
+        <div className="promo-lbl">Brand Growth</div>
+      </div>
     </div>
   </div>
 </section>
@@ -385,7 +408,7 @@ export default function HomePage() {
         <p className="form-info-body">Whenever and wherever you need — it's our job to get you started on the correct path for your imminent or existing Health Care Facility. Reach out and let's begin your healthcare journey together.</p>
         <div style={{display:'flex',flexDirection:'column',gap:'16px',marginBottom:'28px'}}>
           <div className="cta-ci" style={{color:'var(--dark)'}}>
-            <div className="cta-ci-icon" style={{background:'var(--orange-pale)'}}><svg viewBox="0 0 24 24" fill="none"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.7 10.74 19.79 19.79 0 01.67 2.18 2 2 0 012.67.06h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 8a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z" stroke="var(--orange)" strokeWidth="2" strokeLinecap="round"/></svg></div>
+            <div className="cta-ci-icon" style={{background:'var(--orange-pale)'}}><img src="/img/callicon.png" alt="call" style={{width:'20px',height:'20px',filter:'invert(45%) sepia(80%) saturate(800%) hue-rotate(5deg)'}}/></div>
             <div><div style={{fontSize:'11px',color:'var(--mid)'}}>Phone</div><div style={{fontSize:'14px',fontWeight:'600'}}>(+91)-9073409444</div></div>
           </div>
           <div className="cta-ci" style={{color:'var(--dark)'}}>
@@ -398,16 +421,16 @@ export default function HomePage() {
           </div>
         </div>
         <div className="form-socials">
-          <a href="https://www.facebook.com/profile.php?id=61551811960790" target="_blank" rel="noopener" className="social-link" target="_blank" rel="noopener">
-            <svg viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>
+          <a href="https://www.facebook.com/profile.php?id=61551811960790" target="_blank" rel="noopener" className="social-link" style={{borderColor:'#1877F2',color:'#1877F2'}}>
+            <svg viewBox="0 0 24 24" fill="#1877F2"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>
             Facebook
           </a>
-          <a href="https://www.instagram.com/theteamtheconsultants2023" target="_blank" rel="noopener" className="social-link" target="_blank" rel="noopener">
-            <svg viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+          <a href="https://www.instagram.com/theteamtheconsultants2023" target="_blank" rel="noopener" className="social-link" style={{borderColor:'#E1306C',color:'#E1306C'}}>
+            <svg viewBox="0 0 24 24" fill="none" stroke="#E1306C" strokeWidth="2"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5" strokeWidth="2.5"/></svg>
             Instagram
           </a>
-          <a href="https://www.youtube.com/channel/UCslUT6bCfwrLU4MLGH-Kanw" target="_blank" rel="noopener" className="social-link" target="_blank" rel="noopener">
-            <svg viewBox="0 0 24 24"><path d="M22.54 6.42a2.78 2.78 0 00-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.59.46a2.78 2.78 0 00-1.95 1.96A29 29 0 001 12a29 29 0 00.46 5.58A2.78 2.78 0 003.41 19.6C5.12 20 12 20 12 20s6.88 0 8.59-.46a2.78 2.78 0 001.95-1.95A29 29 0 0023 12a29 29 0 00-.46-5.58z"/><polygon points="9.75,15.02 15.5,12 9.75,8.98 9.75,15.02" fill="white"/></svg>
+          <a href="https://www.youtube.com/channel/UCslUT6bCfwrLU4MLGH-Kanw" target="_blank" rel="noopener" className="social-link" style={{borderColor:'#FF0000',color:'#FF0000'}}>
+            <svg viewBox="0 0 24 24"><path d="M22.54 6.42a2.78 2.78 0 00-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.59.46a2.78 2.78 0 00-1.95 1.96A29 29 0 001 12a29 29 0 00.46 5.58A2.78 2.78 0 003.41 19.6C5.12 20 12 20 12 20s6.88 0 8.59-.46a2.78 2.78 0 001.95-1.95A29 29 0 0023 12a29 29 0 00-.46-5.58z" fill="#FF0000"/><polygon points="9.75,15.02 15.5,12 9.75,8.98" fill="white"/></svg>
             YouTube
           </a>
         </div>

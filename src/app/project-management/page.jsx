@@ -35,7 +35,7 @@ export default function ProjectManagementPage() {
       <p>We provide end-to-end Hospital and Health Care Project Management services — from architectural planning to final handover. Our highly experienced team ensures every aspect of your healthcare facility is executed flawlessly and on time.</p>
     </div>
     <div className="sp-feature-img fade-up">
-      <img src="/img/aboutus3.png" alt="Hospital &amp; Healthcare Project Management"/>
+      <img src="/img/promo9.png" alt="Hospital &amp; Healthcare Project Management"/>
     </div>
     <div className="sp-items-grid sp-grid-2">
       <div className="sp-item fade-up">

@@ -27,11 +27,11 @@ export default function Navbar() {
         </div>
       </li>
       <li><a href="/#projects">Projects</a></li>
-      <li><a href="/#contact">Contact Us</a></li>
+      <li><a href="https://api.whatsapp.com/send/?phone=919073409444&text&type=phone_number&app_absent=0" target="_blank" rel="noopener">Contact Us</a></li>
     </ul>
 
     <a href="/#contact" className="nav-cta">
-      <svg viewBox="0 0 24 24" fill="none"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.7 10.74 19.79 19.79 0 01.67 2.18 2 2 0 012.67.06h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 8a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/></svg>
+      <img src="/img/callicon.png" alt="call" style={{width:'17px',height:'17px'}}/>
       Get In Touch
     </a>
     <button className="hamburger" id="hamburger" aria-label="Menu">
@@ -56,7 +56,7 @@ export default function Navbar() {
   <a href="/healthcare-stationery" className="mob-sub">Healthcare Stationery Design</a>
   <a href="/plant-setup" className="mob-sub">Oxygen Generation Plant</a>
   <a href="/#projects">Projects</a>
-  <a href="/#contact">Contact Us</a>
+  <a href="https://api.whatsapp.com/send/?phone=919073409444&text&type=phone_number&app_absent=0" target="_blank" rel="noopener">Contact Us</a>
   <a href="/#contact" className="mob-cta">Get In Touch</a>
 </div>
     </>

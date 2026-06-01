@@ -35,7 +35,7 @@ export default function NablAccreditationPage() {
       <p>We have trained and certified manpower, who will introduce and implement all systems and process flows, manage and maintain day to day operations as per guidelines of NABL, and complete the accreditation process for your Health Care Set up.</p>
     </div>
     <div className="sp-feature-img fade-up">
-      <img src="/img/aboutus1.png" alt="NABL Accreditation Support"/>
+      <img src="/img/promo2.png" alt="NABL Accreditation Support"/>
     </div>
     <div className="sp-items-grid sp-grid-2">
       <div className="sp-item fade-up">

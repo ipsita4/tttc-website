@@ -34,6 +34,9 @@ export default function WebsiteDevelopmentPage() {
     <div className="sp-intro fade-up">
       <p>Develop responsive, user-friendly websites with creative design, robust coding, and optimization for optimal performance, ensuring a compelling online presence for your healthcare organization.</p>
     </div>
+    <div className="sp-feature-img fade-up">
+      <img src="/img/promo3.png" alt="Smart IT Solutions"/>
+    </div>
     <div className="sp-items-grid sp-grid-2">
       <div className="sp-item fade-up">
         <div className="sp-item-num">01</div>

@@ -41,6 +41,41 @@ export default function ClientScripts() {
       })
     })
 
+    // ── scroll reveal ──
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add("visible"); io.unobserve(e.target) } })
+    }, { threshold: 0.1, rootMargin: "0px 0px -40px 0px" })
+    document.querySelectorAll(".fade-up").forEach(el => io.observe(el))
+
+    // stagger grid children
+    document.querySelectorAll(".services-grid,.wf-grid,.promo-grid,.pillars,.faq-grid,.why-grid").forEach(grid => {
+      grid.querySelectorAll(".fade-up").forEach((el, i) => { el.style.transitionDelay = `${i * 0.08}s` })
+    })
+
+    // ── stats counter ──
+    const counterObs = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (!entry.isIntersecting) return
+        const el = entry.target
+        const sup = el.querySelector("sup")
+        const suffix = sup ? sup.textContent : ""
+        const target = parseInt(el.textContent.replace(suffix, "").trim())
+        if (isNaN(target)) return
+        let startTs = null
+        const dur = 1800
+        const ease = t => 1 - Math.pow(1 - t, 3)
+        const tick = ts => {
+          if (!startTs) startTs = ts
+          const p = Math.min((ts - startTs) / dur, 1)
+          el.innerHTML = Math.floor(ease(p) * target) + (suffix ? `<sup>${suffix}</sup>` : "")
+          if (p < 1) requestAnimationFrame(tick)
+        }
+        requestAnimationFrame(tick)
+        counterObs.unobserve(el)
+      })
+    }, { threshold: 0.6 })
+    document.querySelectorAll(".stat-num").forEach(el => counterObs.observe(el))
+
     // contact form
     const cf = document.getElementById("contactForm")
     if (cf) cf.addEventListener("submit", function(e) {
@@ -64,6 +99,8 @@ export default function ClientScripts() {
     return () => {
       window.removeEventListener("scroll", onScroll)
       window.removeEventListener("scroll", onScrollTop)
+      io.disconnect()
+      counterObs.disconnect()
     }
   }, [])
 

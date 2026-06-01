@@ -1,4 +1,4 @@
-export const metadata = { title: "O2 Generator, RO, ETP &amp; STP Plant Set-up | The Team The Consultants" }
+export const metadata = { title: "Oxygen Generator, RO, ETP &amp; STP Plant Set-up | The Team The Consultants" }
 
 export default function PlantSetupPage() {
   return (
@@ -13,7 +13,7 @@ export default function PlantSetupPage() {
       <svg viewBox="0 0 16 16" fill="none"><polyline points="6,4 10,8 6,12" stroke="currentColor" strokeWidth="1.5"/></svg>
       <span>Plant Setup</span>
     </div>
-    <h1 className="sp-hero-title fade-up">O2 Generator, RO, ETP & STP Plant Set-up</h1>
+    <h1 className="sp-hero-title fade-up">Oxygen Generator, RO, ETP & STP Plant Set-up</h1>
     <p className="sp-hero-sub fade-up">Critical Healthcare Infrastructure for Sustainable Operations</p>
     <div className="sp-hero-actions fade-up">
       <a href="/#contact" className="btn-primary">

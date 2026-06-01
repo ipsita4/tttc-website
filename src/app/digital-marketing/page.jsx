@@ -34,6 +34,9 @@ export default function DigitalMarketingPage() {
     <div className="sp-intro fade-up">
       <p>Strategize and implement digital branding and marketing campaigns, optimizing online presence, engagement, and conversion for business growth and success. We help healthcare organizations build a strong, trustworthy digital identity.</p>
     </div>
+    <div className="sp-feature-img fade-up">
+      <img src="/img/promo10.png" alt="Brand Growth"/>
+    </div>
     <div className="sp-items-grid sp-grid-2">
       <div className="sp-item fade-up">
         <div className="sp-item-num">01</div>

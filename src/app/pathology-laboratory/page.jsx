@@ -35,7 +35,7 @@ export default function PathologyLaboratoryPage() {
       <p>Transform Your Pathology Lab — Unparalleled Excellence in Setup and NABL Accreditation Services Await You! We provide comprehensive pathology laboratory planning, design, and management support to establish world-class diagnostic facilities.</p>
     </div>
     <div className="sp-feature-img fade-up">
-      <img src="/img/aboutus5.png" alt="Pathology Laboratory Set-up"/>
+      <img src="/img/promo7.png" alt="Pathology Laboratory Set-up"/>
     </div>
     <div className="sp-items-grid sp-grid-2">
       <div className="sp-item fade-up">

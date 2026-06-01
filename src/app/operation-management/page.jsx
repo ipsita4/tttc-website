@@ -35,7 +35,7 @@ export default function OperationManagementPage() {
       <p>We are ready to help you and your organization with Highly Experienced Management Staff, to put everything in the streamline of your Hospital OR Health Care Day to Day Operational Management systems as per NABH Guidelines.</p>
     </div>
     <div className="sp-feature-img fade-up">
-      <img src="/img/aboutus6.png" alt="Hospital Operational Management"/>
+      <img src="/img/promo6.png" alt="Hospital Operational Management"/>
     </div>
     <div className="sp-items-grid sp-grid-2">
       <div className="sp-item fade-up">

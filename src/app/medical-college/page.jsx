@@ -34,6 +34,9 @@ export default function MedicalCollegePage() {
     <div className="sp-intro fade-up">
       <p>A Medical College Hospital represents an essential infrastructure initiative designed to deliver high-quality medical education, facilitate research opportunities, and offer comprehensive healthcare services. At 'THE TEAM THE CONSULTANTS,' we specialize in navigating the complexities of planning, designing, and implementing premier Medical College Hospitals across India. Our expertise spans systematic space planning, aesthetically functional architectural design, and MEP solutions, all aligned with the guidelines set by the National Medical Commission, the National Building Act, and Environmental Clearance requirements. Together, let's shape the future of medical education!</p>
     </div>
+    <div className="sp-feature-img fade-up">
+      <video src="/img/med_coll.mp4" controls playsInline preload="metadata" style={{width:'100%',height:'auto',display:'block'}}></video>
+    </div>
     <div className="sp-items-grid sp-grid-1">
       <div className="sp-item fade-up">
         <div className="sp-item-num">01</div>
