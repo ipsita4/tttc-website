@@ -288,40 +288,46 @@ export default function HomePage() {
       </div>
       <p className="sec-sub">A proven 8-phase process delivering excellence at every step</p>
     </div>
-    <div className="wf-track">
-      <div className="wf-line">
-        <div className="wf-step fade-up">
-          <div className="wf-circle"><svg viewBox="0 0 24 24"><path d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/></svg></div>
-          <div className="wf-num">01</div><div className="wf-lbl">Concept &amp; Planning</div>
-        </div>
-        <div className="wf-step fade-up">
-          <div className="wf-circle"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg></div>
-          <div className="wf-num">02</div><div className="wf-lbl">Architectural Design</div>
-        </div>
-        <div className="wf-step fade-up">
-          <div className="wf-circle"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M12 1v3M12 20v3M4.22 4.22l2.12 2.12M17.66 17.66l2.12 2.12M1 12h3M20 12h3M4.22 19.78l2.12-2.12M17.66 6.34l2.12-2.12"/></svg></div>
-          <div className="wf-num">03</div><div className="wf-lbl">Engineering Design</div>
-        </div>
-        <div className="wf-step fade-up">
-          <div className="wf-circle"><svg viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14,2 14,8 20,8"/><line x1="16" y1="13" x2="8" y2="13"/></svg></div>
-          <div className="wf-num">04</div><div className="wf-lbl">BOQ &amp; Estimation</div>
-        </div>
-        <div className="wf-step fade-up">
-          <div className="wf-circle"><svg viewBox="0 0 24 24"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 00-2-2h-4a2 2 0 00-2 2v16"/></svg></div>
-          <div className="wf-num">05</div><div className="wf-lbl">Construction Execution</div>
-        </div>
-        <div className="wf-step fade-up">
-          <div className="wf-circle"><svg viewBox="0 0 24 24"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg></div>
-          <div className="wf-num">06</div><div className="wf-lbl">Supervision &amp; Monitoring</div>
-        </div>
-        <div className="wf-step fade-up">
-          <div className="wf-circle"><svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89L17 22l-5-3-5 3 1.523-9.11"/></svg></div>
-          <div className="wf-num">07</div><div className="wf-lbl">Licensing &amp; Accreditation</div>
-        </div>
-        <div className="wf-step fade-up">
-          <div className="wf-circle"><svg viewBox="0 0 24 24"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22,4 12,14.01 9,11.01"/></svg></div>
-          <div className="wf-num">08</div><div className="wf-lbl">Project Handover</div>
-        </div>
+    <div className="wf-grid">
+      <div className="wf-card fade-up">
+        <div className="wf-card-num">01</div>
+        <div className="wf-card-icon"><svg viewBox="0 0 24 24"><path d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/></svg></div>
+        <div className="wf-card-title">Concept &amp; Planning</div>
+      </div>
+      <div className="wf-card fade-up">
+        <div className="wf-card-num">02</div>
+        <div className="wf-card-icon"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg></div>
+        <div className="wf-card-title">Architectural Design</div>
+      </div>
+      <div className="wf-card fade-up">
+        <div className="wf-card-num">03</div>
+        <div className="wf-card-icon"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M12 1v3M12 20v3M4.22 4.22l2.12 2.12M17.66 17.66l2.12 2.12M1 12h3M20 12h3M4.22 19.78l2.12-2.12M17.66 6.34l2.12-2.12"/></svg></div>
+        <div className="wf-card-title">Engineering Design</div>
+      </div>
+      <div className="wf-card fade-up">
+        <div className="wf-card-num">04</div>
+        <div className="wf-card-icon"><svg viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14,2 14,8 20,8"/><line x1="16" y1="13" x2="8" y2="13"/></svg></div>
+        <div className="wf-card-title">BOQ &amp; Estimation</div>
+      </div>
+      <div className="wf-card fade-up">
+        <div className="wf-card-num">05</div>
+        <div className="wf-card-icon"><svg viewBox="0 0 24 24"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 00-2-2h-4a2 2 0 00-2 2v16"/></svg></div>
+        <div className="wf-card-title">Construction Execution</div>
+      </div>
+      <div className="wf-card fade-up">
+        <div className="wf-card-num">06</div>
+        <div className="wf-card-icon"><svg viewBox="0 0 24 24"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg></div>
+        <div className="wf-card-title">Supervision &amp; Monitoring</div>
+      </div>
+      <div className="wf-card fade-up">
+        <div className="wf-card-num">07</div>
+        <div className="wf-card-icon"><svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89L17 22l-5-3-5 3 1.523-9.11"/></svg></div>
+        <div className="wf-card-title">Licensing &amp; Accreditation</div>
+      </div>
+      <div className="wf-card fade-up">
+        <div className="wf-card-num">08</div>
+        <div className="wf-card-icon"><svg viewBox="0 0 24 24"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22,4 12,14.01 9,11.01"/></svg></div>
+        <div className="wf-card-title">Project Handover</div>
       </div>
     </div>
   </div>
