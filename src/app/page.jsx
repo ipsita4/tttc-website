@@ -10,9 +10,9 @@ export default function HomePage() {
           Our Service
         </div>
         <h1 className="hero-title">
-          Hospital &amp; Healthcare<br/>Project Management
+          Hospital &amp; <em>Healthcare</em><br/>Project Management
         </h1>
-        <p className="hero-orange-sub">One Stop Solution for Hospital or any<br/>kind of Health Care Set Up</p>
+        <p className="hero-orange-sub">One stop solution for setting up any hospital or healthcare facility — from concept to commissioning.</p>
         <div className="hero-divider"></div>
         <div className="hero-pills">
           <span className="hero-pill">
@@ -81,24 +81,31 @@ export default function HomePage() {
     <div className="promo-grid">
       <div className="promo-card promo-featured fade-up">
         <img src="/img/aboutus3.png" alt="Build Your Dream Hospital"/>
+        <div className="promo-lbl">Build Your Dream Hospital</div>
       </div>
       <div className="promo-card fade-up">
         <img src="/img/aboutus2.png" alt="NABH Accreditation"/>
+        <div className="promo-lbl">NABH Accreditation</div>
       </div>
       <div className="promo-card fade-up">
         <img src="/img/aboutus6.png" alt="Hospital Operational Management"/>
+        <div className="promo-lbl">Operational Management</div>
       </div>
       <div className="promo-card fade-up">
         <img src="/img/aboutus1.png" alt="NABL Accreditation"/>
+        <div className="promo-lbl">NABL Accreditation</div>
       </div>
       <div className="promo-card fade-up">
         <img src="/img/aboutus4.png" alt="HMIS and LIMS"/>
+        <div className="promo-lbl">HMIS &amp; LIMS</div>
       </div>
       <div className="promo-card fade-up">
         <img src="/img/aboutus5.png" alt="Pathology Laboratory"/>
+        <div className="promo-lbl">Pathology Laboratory</div>
       </div>
       <div className="promo-card fade-up">
         <img src="/img/aboutus7.png" alt="Data Analysis"/>
+        <div className="promo-lbl">Data Analysis</div>
       </div>
     </div>
   </div>
@@ -115,8 +122,8 @@ export default function HomePage() {
         </div>
         <h2 className="about-title">Revolutionizing <em>Healthcare</em> Infrastructure</h2>
         <div className="about-divider"></div>
-        <p className="about-body">We, with Highly Experienced Team Members, revolutionize Health Care with end-to-end Medical College and Hospital or Health Care Project Management, NABH-Compliant Complete Hospital Operational Management, NABL-Compliant Pathology Laboratory Management, Provider of Hospital &amp; Laboratory Management Software, and Comprehensive Services including Health Care Website Design, Complete IT Support, Security Systems, and Graphic Design for impactful advertising and Branding.</p>
-        <p className="about-body" style={{marginTop:'-12px'}}>Choose <strong>'The Team The Consultants'</strong> — the most experienced and reliable team — for comprehensive solutions in establishing Medical Colleges, hospitals, diagnostics, or healthcare setups.</p>
+        <p className="about-body">We are a specialised team of healthcare consultants who take a hospital from a blank site plan to a fully operational, accredited facility. Every discipline — architecture, equipment, licensing, IT, branding — managed under one roof.</p>
+        <p className="about-body" style={{marginTop:'-12px'}}>Trusted by hospitals, diagnostic centres, and medical colleges across India to deliver on time, within budget, and to the highest compliance standards.</p>
       </div>
       <div className="pillars fade-up">
         <div className="pillar">
@@ -154,13 +161,13 @@ export default function HomePage() {
 
 <section className="services" id="services">
   <div className="container">
-    <div className="sec-hd fade-up">
+    <div className="sec-hd-left fade-up">
       <p className="svc-label">Our Services</p>
-      <h2 className="svc-heading">Healthcare Consultancy Solutions</h2>
+      <h2 className="svc-heading">Healthcare Consultancy<br/>Solutions</h2>
     </div>
     <div className="services-grid">
 
-      <div className="svc-card fade-up">
+      <div className="svc-card svc-card-featured fade-up">
         <div className="svc-num">01</div>
         <div className="svc-icon"><svg viewBox="0 0 24 24"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9,22 9,12 15,12 15,22"/></svg></div>
         <div className="svc-name">Hospital Project Management</div>
@@ -247,12 +254,9 @@ export default function HomePage() {
 
 <section className="why" id="why">
   <div className="container">
-    <div className="sec-hd fade-up">
-      <div className="sec-title-row">
-        <div className="orn"></div>
-        <h2 className="sec-title">Why Choose Us?</h2>
-        <div className="orn r"></div>
-      </div>
+    <div className="sec-hd-left fade-up" style={{marginBottom:'40px'}}>
+      <p className="sec-eyebrow">Why Us</p>
+      <h2 className="sec-title">Built on trust,<br/>delivered with precision.</h2>
     </div>
     <div className="why-banner fade-up">
       <div className="why-img-l">
@@ -281,12 +285,9 @@ export default function HomePage() {
 <section className="workflow" id="projects">
   <div className="container">
     <div className="sec-hd fade-up">
-      <div className="sec-title-row">
-        <div className="orn"></div>
-        <h2 className="sec-title">Our Project Management Workflow</h2>
-        <div className="orn r"></div>
-      </div>
-      <p className="sec-sub">A proven 8-phase process delivering excellence at every step</p>
+      <p className="sec-eyebrow" style={{display:'inline-block',marginBottom:'12px'}}>How We Work</p>
+      <h2 className="sec-title">8 phases. Zero<br/>loose ends.</h2>
+      <p className="sec-sub">From the first sketch to the final handover — every step is tracked, supervised, and delivered.</p>
     </div>
     <div className="wf-grid">
       <div className="wf-card fade-up">

@@ -4,13 +4,13 @@ export default function Navbar() {
     <>
       <nav className="navbar" id="navbar">
   <div className="nav-inner">
-    <a href="#" className="nav-logo">
+    <a href="/" className="nav-logo">
       <img src="/img/logo.png" alt="The Team The Consultants" className="nav-logo-img"/>
     </a>
 
     <ul className="nav-links">
-      <li><a href="#home" className="active">Home</a></li>
-      <li><a href="#about">About</a></li>
+      <li><a href="/#home" className="active">Home</a></li>
+      <li><a href="/#about">About</a></li>
       <li>
                 <a href="/#services">Services <svg className="arr" viewBox="0 0 16 16"><polyline points="4,6 8,10 12,6"/></svg></a>
         <div className="dropdown">
@@ -26,11 +26,11 @@ export default function Navbar() {
           <a href="/plant-setup">Oxygen Generation Plant</a>
         </div>
       </li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#contact">Contact Us</a></li>
+      <li><a href="/#projects">Projects</a></li>
+      <li><a href="/#contact">Contact Us</a></li>
     </ul>
 
-    <a href="#contact" className="nav-cta">
+    <a href="/#contact" className="nav-cta">
       <svg viewBox="0 0 24 24" fill="none"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.7 10.74 19.79 19.79 0 01.67 2.18 2 2 0 012.67.06h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 8a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/></svg>
       Get In Touch
     </a>
@@ -42,8 +42,8 @@ export default function Navbar() {
 
 
 <div className="mob-menu" id="mobMenu">
-  <a href="#home">Home</a>
-  <a href="#about">About</a>
+  <a href="/#home">Home</a>
+  <a href="/#about">About</a>
     <a href="/#services" style={{fontWeight:'700',color:'var(--orange)'}}>Services</a>
   <a href="/project-management" className="mob-sub">Hospital Project Management</a>
   <a href="/medical-college" className="mob-sub">Medical College Projects</a>
@@ -56,8 +56,8 @@ export default function Navbar() {
   <a href="/healthcare-stationery" className="mob-sub">Healthcare Stationery Design</a>
   <a href="/plant-setup" className="mob-sub">Oxygen Generation Plant</a>
   <a href="/#projects">Projects</a>
-  <a href="#contact">Contact Us</a>
-  <a href="#contact" className="mob-cta">Get In Touch</a>
+  <a href="/#contact">Contact Us</a>
+  <a href="/#contact" className="mob-cta">Get In Touch</a>
 </div>
     </>
   )
