@@ -196,21 +196,14 @@ export default function HomePage() {
 
       <a href="/plant-setup" className="svc-card fade-up">
         <div className="svc-num">11</div>
-        <div className="svc-name">RO Plant</div>
-        <div className="svc-desc">Supply, installation and commissioning of Reverse Osmosis water treatment plants for hospitals — ensuring clean, safe water supply meeting healthcare standards.</div>
-        <span className="svc-link">Read more <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12,5 19,12 12,19"/></svg></span>
-      </a>
-
-      <a href="/plant-setup" className="svc-card fade-up">
-        <div className="svc-num">12</div>
-        <div className="svc-name">ETP &amp; STP Plant</div>
-        <div className="svc-desc">Effluent Treatment Plant and Sewage Treatment Plant setup for healthcare facilities — design, installation, and compliance with environmental regulations.</div>
+        <div className="svc-name">RO Plant, ETP &amp; STP Plant</div>
+        <div className="svc-desc">Reverse Osmosis water treatment, Effluent Treatment Plant and Sewage Treatment Plant setup — design, installation, and compliance for healthcare facilities.</div>
         <span className="svc-link">Read more <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12,5 19,12 12,19"/></svg></span>
       </a>
 
       <a href="/electrical-plant" className="svc-card fade-up">
-        <div className="svc-num">13</div>
-        <div className="svc-name">Electrical Plant</div>
+        <div className="svc-num">12</div>
+        <div className="svc-name">Complete Electrical Solutions</div>
         <div className="svc-desc">Turnkey electrical solutions — design, substation setup, cabling, fire alarm systems, solar power initiatives, and full commissioning for healthcare facilities.</div>
         <span className="svc-link">Read more <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12,5 19,12 12,19"/></svg></span>
       </a>

@@ -24,6 +24,8 @@ export default function Navbar() {
           <a href="/digital-marketing">Digital Branding &amp; Marketing</a>
           <a href="/healthcare-stationery">Healthcare Stationery Design</a>
           <a href="/plant-setup">Oxygen Generation Plant</a>
+          <a href="/plant-setup">RO Plant, ETP &amp; STP Plant</a>
+          <a href="/electrical-plant">Complete Electrical Solutions</a>
         </div>
       </li>
       <li><a href="/#projects">Projects</a></li>
@@ -55,6 +57,8 @@ export default function Navbar() {
   <a href="/digital-marketing" className="mob-sub">Digital Branding &amp; Marketing</a>
   <a href="/healthcare-stationery" className="mob-sub">Healthcare Stationery Design</a>
   <a href="/plant-setup" className="mob-sub">Oxygen Generation Plant</a>
+  <a href="/plant-setup" className="mob-sub">RO Plant, ETP &amp; STP Plant</a>
+  <a href="/electrical-plant" className="mob-sub">Complete Electrical Solutions</a>
   <a href="/#projects">Projects</a>
   <a href="https://api.whatsapp.com/send/?phone=919073409444&text&type=phone_number&app_absent=0" target="_blank" rel="noopener">Contact Us</a>
   <a href="/#contact" className="mob-cta">Get In Touch</a>
