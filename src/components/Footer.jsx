@@ -11,8 +11,11 @@ export default function Footer() {
         <p className="fn-tagline">Smart Healthcare Solutions</p>
         <p className="fn-desc">We design, plan and deliver future-ready healthcare infrastructure that meets all standards and exceeds expectations.</p>
         <div className="fn-socials">
-          <a href="https://www.facebook.com/profile.php?id=61551811960790" className="fn-soc" target="_blank" rel="noopener" aria-label="Facebook" style={{background:'#1877F2'}}>
+          <a href="https://www.facebook.com/profile.php?id=61590761451386" className="fn-soc" target="_blank" rel="noopener" aria-label="Facebook" style={{background:'#1877F2'}}>
             <svg viewBox="0 0 24 24" fill="white"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>
+          </a>
+          <a href="https://www.linkedin.com/company/117883950" className="fn-soc" target="_blank" rel="noopener" aria-label="LinkedIn" style={{background:'#0A66C2'}}>
+            <svg viewBox="0 0 24 24" fill="white"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
           </a>
           <a href="https://www.instagram.com/theteamtheconsultants2023" className="fn-soc" target="_blank" rel="noopener" aria-label="Instagram" style={{background:'radial-gradient(circle at 30% 107%,#fdf497 0%,#fd5949 45%,#d6249f 60%,#285AEB 90%)'}}>
             <svg viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5" strokeWidth="2.5"/></svg>

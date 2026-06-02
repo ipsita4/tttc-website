@@ -414,13 +414,17 @@ export default function HomePage() {
           </div>
         </div>
         <div className="form-socials">
-          <a href="https://www.facebook.com/profile.php?id=61551811960790" target="_blank" rel="noopener" className="social-link" style={{borderColor:'#1877F2',color:'#1877F2'}}>
+          <a href="https://www.facebook.com/profile.php?id=61590761451386" target="_blank" rel="noopener" className="social-link" style={{borderColor:'#1877F2',color:'#1877F2'}}>
             <svg viewBox="0 0 24 24" fill="#1877F2"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>
             Facebook
           </a>
           <a href="https://www.instagram.com/theteamtheconsultants2023" target="_blank" rel="noopener" className="social-link" style={{borderColor:'#E1306C',color:'#E1306C'}}>
             <svg viewBox="0 0 24 24" fill="none" stroke="#E1306C" strokeWidth="2"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5" strokeWidth="2.5"/></svg>
             Instagram
+          </a>
+          <a href="https://www.linkedin.com/company/117883950" target="_blank" rel="noopener" className="social-link" style={{borderColor:'#0A66C2',color:'#0A66C2'}}>
+            <svg viewBox="0 0 24 24" fill="#0A66C2"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+            LinkedIn
           </a>
           <a href="https://www.youtube.com/channel/UCslUT6bCfwrLU4MLGH-Kanw" target="_blank" rel="noopener" className="social-link" style={{borderColor:'#FF0000',color:'#FF0000'}}>
             <svg viewBox="0 0 24 24"><path d="M22.54 6.42a2.78 2.78 0 00-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.59.46a2.78 2.78 0 00-1.95 1.96A29 29 0 001 12a29 29 0 00.46 5.58A2.78 2.78 0 003.41 19.6C5.12 20 12 20 12 20s6.88 0 8.59-.46a2.78 2.78 0 001.95-1.95A29 29 0 0023 12a29 29 0 00-.46-5.58z" fill="#FF0000"/><polygon points="9.75,15.02 15.5,12 9.75,8.98" fill="white"/></svg>
@@ -429,34 +433,34 @@ export default function HomePage() {
         </div>
       </div>
       <div className="fade-up">
-        <form className="contact" id="contactForm" onsubmit="handleSubmit(event)">
+        <form className="contact" id="contactForm">
           <div className="form-row">
             <div className="form-field">
               <label>First Name <span>*</span></label>
-              <input type="text" placeholder="John" required/>
+              <input name="firstName" type="text" placeholder="John" required/>
             </div>
             <div className="form-field">
               <label>Last Name <span>*</span></label>
-              <input type="text" placeholder="Doe" required/>
+              <input name="lastName" type="text" placeholder="Doe" required/>
             </div>
           </div>
           <div className="form-row">
             <div className="form-field">
               <label>Email <span>*</span></label>
-              <input type="email" placeholder="john@example.com" required/>
+              <input name="email" type="email" placeholder="john@example.com" required/>
             </div>
             <div className="form-field">
               <label>Phone <span>*</span></label>
-              <input type="tel" placeholder="+91 XXXXX XXXXX" required/>
+              <input name="phone" type="tel" placeholder="+91 XXXXX XXXXX" required/>
             </div>
           </div>
           <div className="form-field">
             <label>Company / Organization Name</label>
-            <input type="text" placeholder="Your hospital or organization name"/>
+            <input name="company" type="text" placeholder="Your hospital or organization name"/>
           </div>
           <div className="form-field">
             <label>How can we help?</label>
-            <textarea placeholder="Tell us about your healthcare facility requirements..."></textarea>
+            <textarea name="message" placeholder="Tell us about your healthcare facility requirements..."></textarea>
           </div>
           <button type="submit" className="form-submit">
             <svg viewBox="0 0 24 24"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22,2 15,22 11,13 2,9"/></svg>

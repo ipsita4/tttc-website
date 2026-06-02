@@ -78,13 +78,43 @@ export default function ClientScripts() {
 
     // contact form
     const cf = document.getElementById("contactForm")
-    if (cf) cf.addEventListener("submit", function(e) {
+    if (cf) cf.addEventListener("submit", async function(e) {
       e.preventDefault()
       const btn = this.querySelector(".form-submit")
       const orig = btn.innerHTML
-      btn.innerHTML = "✓ Sent!"
-      btn.style.background = "#22c55e"
-      setTimeout(() => { btn.innerHTML = orig; btn.style.background = ""; this.reset() }, 3000)
+      btn.innerHTML = "Sending..."
+      btn.disabled = true
+      try {
+        const data = {
+          firstName: this.firstName.value,
+          lastName: this.lastName.value,
+          email: this.email.value,
+          phone: this.phone.value,
+          company: this.company.value,
+          message: this.message.value,
+        }
+        const res = await fetch("/api/contact", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(data),
+        })
+        const json = await res.json()
+        if (json.success) {
+          btn.innerHTML = "✓ Sent!"
+          btn.style.background = "#22c55e"
+          btn.style.color = "white"
+          this.reset()
+          setTimeout(() => { btn.innerHTML = orig; btn.style.background = ""; btn.style.color = ""; btn.disabled = false }, 3000)
+        } else {
+          btn.innerHTML = "Failed — try again"
+          btn.style.background = "#ef4444"
+          setTimeout(() => { btn.innerHTML = orig; btn.style.background = ""; btn.disabled = false }, 3000)
+        }
+      } catch {
+        btn.innerHTML = "Failed — try again"
+        btn.style.background = "#ef4444"
+        setTimeout(() => { btn.innerHTML = orig; btn.style.background = ""; btn.disabled = false }, 3000)
+      }
     })
 
     // video player
