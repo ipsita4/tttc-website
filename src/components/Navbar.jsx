@@ -1,5 +1,10 @@
 "use client"
+import { useState } from "react"
+
 export default function Navbar() {
+  const [open, setOpen] = useState(false)
+  const close = () => setOpen(false)
+
   return (
     <>
       <nav className="navbar" id="navbar">
@@ -36,32 +41,34 @@ export default function Navbar() {
       <img src="/img/callicon.png" alt="call" style={{width:'17px',height:'17px'}}/>
       Get In Touch
     </a>
-    <button className="hamburger" id="hamburger" aria-label="Menu">
-      <span></span><span></span><span></span>
+    <button className="hamburger" aria-label="Menu" onClick={() => setOpen(o => !o)}>
+      <span style={{transform: open ? 'translateY(7px) rotate(45deg)' : ''}}></span>
+      <span style={{opacity: open ? '0' : ''}}></span>
+      <span style={{transform: open ? 'translateY(-7px) rotate(-45deg)' : ''}}></span>
     </button>
   </div>
 </nav>
 
 
-<div className="mob-menu" id="mobMenu">
-  <a href="/#home">Home</a>
-  <a href="/#about">About</a>
-    <a href="/#services" style={{fontWeight:'700',color:'var(--orange)'}}>Services</a>
-  <a href="/project-management" className="mob-sub">Hospital Project Management</a>
-  <a href="/medical-college" className="mob-sub">Medical College Projects</a>
-  <a href="/pathology-laboratory" className="mob-sub">Pathology Laboratory</a>
-  <a href="/nabh-accreditation" className="mob-sub">NABH Accreditation</a>
-  <a href="/nabl-accreditation" className="mob-sub">NABL Accreditation</a>
-  <a href="/operation-management" className="mob-sub">Operation Management</a>
-  <a href="/website-development" className="mob-sub">Website Development</a>
-  <a href="/digital-marketing" className="mob-sub">Digital Branding &amp; Marketing</a>
-  <a href="/healthcare-stationery" className="mob-sub">Healthcare Stationery Design</a>
-  <a href="/plant-setup" className="mob-sub">Oxygen Generation Plant</a>
-  <a href="/plant-setup" className="mob-sub">RO Plant, ETP &amp; STP Plant</a>
-  <a href="/electrical-plant" className="mob-sub">Complete Electrical Solutions</a>
-  <a href="/#projects">Projects</a>
-  <a href="https://api.whatsapp.com/send/?phone=919073409444&text&type=phone_number&app_absent=0" target="_blank" rel="noopener">Contact Us</a>
-  <a href="/#contact" className="mob-cta">Get In Touch</a>
+<div className={`mob-menu${open ? ' open' : ''}`}>
+  <a href="/#home" onClick={close}>Home</a>
+  <a href="/#about" onClick={close}>About</a>
+  <a href="/#services" style={{fontWeight:'700',color:'var(--orange)'}} onClick={close}>Services</a>
+  <a href="/project-management" className="mob-sub" onClick={close}>Hospital Project Management</a>
+  <a href="/medical-college" className="mob-sub" onClick={close}>Medical College Projects</a>
+  <a href="/pathology-laboratory" className="mob-sub" onClick={close}>Pathology Laboratory</a>
+  <a href="/nabh-accreditation" className="mob-sub" onClick={close}>NABH Accreditation</a>
+  <a href="/nabl-accreditation" className="mob-sub" onClick={close}>NABL Accreditation</a>
+  <a href="/operation-management" className="mob-sub" onClick={close}>Operation Management</a>
+  <a href="/website-development" className="mob-sub" onClick={close}>Website Development</a>
+  <a href="/digital-marketing" className="mob-sub" onClick={close}>Digital Branding &amp; Marketing</a>
+  <a href="/healthcare-stationery" className="mob-sub" onClick={close}>Healthcare Stationery Design</a>
+  <a href="/plant-setup" className="mob-sub" onClick={close}>Oxygen Generation Plant</a>
+  <a href="/plant-setup" className="mob-sub" onClick={close}>RO Plant, ETP &amp; STP Plant</a>
+  <a href="/electrical-plant" className="mob-sub" onClick={close}>Complete Electrical Solutions</a>
+  <a href="/#projects" onClick={close}>Projects</a>
+  <a href="https://api.whatsapp.com/send/?phone=919073409444&text&type=phone_number&app_absent=0" target="_blank" rel="noopener" onClick={close}>Contact Us</a>
+  <a href="/#contact" className="mob-cta" onClick={close}>Get In Touch</a>
 </div>
     </>
   )

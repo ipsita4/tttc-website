@@ -17,7 +17,7 @@ export default function WebsiteDevelopmentPage() {
     <p className="sp-hero-sub fade-up">Responsive, User-Friendly Websites with Creative Design &amp; Robust Coding</p>
     <div className="sp-hero-actions fade-up">
       <a href="/#contact" className="btn-primary">
-        <svg viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2"><path d="M8 6h13M8 12h13M8 18h13M3 6h.01M3 12h.01M3 18h.01"/></svg>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M8 6h13M8 12h13M8 18h13M3 6h.01M3 12h.01M3 18h.01"/></svg>
         Get a Consultation
       </a>
       <a href="/#services" className="btn-outline-light">
