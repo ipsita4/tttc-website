@@ -7,7 +7,7 @@ export default function HomePage() {
       <div className="hero-left">
         <div className="hero-badge">
           <svg viewBox="0 0 24 24" width="14" height="14"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 21 12 17.77 5.82 21 7 14.14 2 9.27l6.91-1.01L12 2z" fill="white"/></svg>
-          Our Service
+          Our Services
         </div>
         <h1 className="hero-title">
           Hospital &amp; <em>Healthcare</em><br/>Project Management
@@ -374,7 +374,7 @@ export default function HomePage() {
           How do I get in touch?
           <svg viewBox="0 0 24 24"><polyline points="6,9 12,15 18,9"/></svg>
         </div>
-        <div className="faq-a"><p>You can reach out to us by emailing <strong>info@theteamtheconsultants.com</strong> or by calling us at <strong>(+91)-863-752-2036</strong>. We're available to help anytime.</p></div>
+        <div className="faq-a"><p>You can reach out to us by emailing <strong>info@theteamtheconsultants.com</strong> or by calling us at <strong>(+91)-9073409444</strong>. We're available to help anytime.</p></div>
       </div>
       <div className="faq-item fade-up">
         <div className="faq-q">
