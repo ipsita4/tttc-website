@@ -85,18 +85,9 @@ export default function ClientScripts() {
       btn.innerHTML = "Sending..."
       btn.disabled = true
       try {
-        const data = {
-          firstName: this.firstName.value,
-          lastName: this.lastName.value,
-          email: this.email.value,
-          phone: this.phone.value,
-          company: this.company.value,
-          message: this.message.value,
-        }
-        const res = await fetch("/api/contact", {
+        const res = await fetch("https://api.web3forms.com/submit", {
           method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify(data),
+          body: new FormData(this),
         })
         const json = await res.json()
         if (json.success) {

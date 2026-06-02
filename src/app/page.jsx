@@ -433,7 +433,11 @@ export default function HomePage() {
         </div>
       </div>
       <div className="fade-up">
-        <form className="contact" id="contactForm">
+        <form className="contact" id="contactForm" action="https://api.web3forms.com/submit" method="POST">
+          <input type="hidden" name="access_key" value="4b827a12-8a53-4ba3-b38e-ace92d01bccf"/>
+          <input type="hidden" name="subject" value="New Enquiry — The Team The Consultants Website"/>
+          <input type="hidden" name="from_name" value="TTTC Website"/>
+          <input type="hidden" name="redirect" value="false"/>
           <div className="form-row">
             <div className="form-field">
               <label>First Name <span>*</span></label>
